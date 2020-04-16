@@ -1,0 +1,49 @@
+# DAMMIF/N results summary
+# Input file: A_S_02489_A1_BSA_10_109_c.out
+# Output prefix: BSA_20fast
+# Output directory: /home/norm/Nextcloud/UdeM/BSA_SEC-SAXS_tutorial_data/processed_data/DAMMIF/20_fast
+# Program used: DAMMIF
+# Mode: Fast
+# Symmetry: P1
+# Anisometry: Unknown
+# Total number of reconstructions: 20
+# Used DAMAVER: True
+# Refined with DAMMIN: False
+# Used DAMCLUST: False
+
+# AMBIMETER results
+
+# Normalized spatial discrepancy results
+# Mean NSD: 0.817
+# Stdev. NSD: 0.032
+# DAMAVER Included: 19 of 20
+# Representative model: 6
+# Excluded Models: 20
+
+# Reconstruction resolution (SASRES) results
+# Ensemble resolution: 39 +/- 3 Angstrom
+
+# Individual model results
+# Model,Chi^2,Rg,Dmax,Excluded_Vol,Est_Protein_MW,Mean_NSD
+1,1.125,28.341,105.0,104000.0,62.65,0.823
+2,1.121,28.354,107.0,104000.0,62.65,0.819
+3,1.117,28.347,102.0,104000.0,62.65,0.868
+4,1.125,28.346,106.0,104000.0,62.65,0.845
+5,1.119,28.338,108.0,105000.0,63.25,0.849
+6,1.114,28.346,104.0,104000.0,62.65,0.765
+7,1.131,28.347,107.0,104000.0,62.65,0.797
+8,1.119,28.334,98.9,105000.0,63.25,0.825
+9,1.116,28.342,105.0,105000.0,63.25,0.822
+10,1.118,28.355,109.0,106000.0,63.86,0.795
+11,1.113,28.339,104.0,105000.0,63.25,0.779
+12,1.122,28.337,107.0,105000.0,63.25,0.801
+13,1.120,28.347,106.0,104000.0,62.65,0.830
+14,1.119,28.339,105.0,105000.0,63.25,0.786
+15,1.124,28.337,105.0,105000.0,63.25,0.827
+16,1.115,28.349,104.0,105000.0,63.25,0.837
+17,1.119,28.352,104.0,104000.0,62.65,0.800
+18,1.121,28.347,102.0,105000.0,63.25,0.780
+19,1.117,28.343,106.0,105000.0,63.25,0.800
+20,1.125,28.352,107.0,105000.0,63.25,0.896
+damaver,,,,104631.579,63.03,
+damfilt,,,,104691.452,63.07,

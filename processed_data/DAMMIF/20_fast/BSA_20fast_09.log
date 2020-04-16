@@ -1,0 +1,182 @@
+dammif ........................................... : r10552
+Log opened ....................................... : 30-Mar-2020, 11:46:56
+Run as:
+Full command line ................................ : /usr/bin/dammif --quiet --mode=Fast --prefix=BSA_20fast_09 --unit=Unknown --symmetry=P1 --anisometry=Unknown --omit-solvent BSA_20fast.out
+Configuration mode ............................... : fast
+Angular units .................................... : unknown
+Prefix ........................................... : BSA_20fast_09
+Omit output of solvent ........................... : yes
+GNOM input file .................................. : BSA_20fast.out
+Expected particle anisometry ..................... : unknown
+Enforced particle symmetry ....................... : p1
+Pseudo-chains in PDB output ...................... : no
+GNOM file:
+Title ............................................ :
+Angular units .................................... : angstrom
+Maximum particle diameter [Angstrom] ............. : 94.0
+Radius of gyration [Angstrom] .................... : 28.4
+Minimum s [1/Angstrom] ........................... : 0.00
+Maximum s [1/Angstrom] ........................... : 0.283
+Configured as:
+Shape class ...................................... : compact
+Approx. shape dimension (ri) ..................... : 0.00
+Approx. shape dimension (ro) ..................... : 36.6
+Approx. shape dimension (h) ...................... : 0.00
+Dummy atom radius ................................ : 2.60
+Number of spherical harmonics .................... : 15
+Proportion of the curve to be fitted ............. : 1.00
+Maximum s [1/Angstrom] ........................... : 0.283
+Number of shannon channels ....................... : 9
+Number of supporting points in spline approx. .... : 9
+Probability that the spline approx. fits the data  : 0.917E-01
+Weighting function ............................... : emphasised porod
+Initial random seed .............................. : 5146446583358715760
+Maximum number of steps .......................... : 200
+Maximum number of iterations ..................... : 20000
+Minumum number of successes ...................... : 20
+Maximum number of successes ...................... : 2000
+Temperature scheduling factor .................... : 0.900
+Rg penalty weight ................................ : 0.100E-02
+Center penalty weight ............................ : 0.100E-04
+Looseness penalty weight ......................... : 0.100E-01
+Anisometry penalty weight ........................ : 0.00
+Constant subtraction ............................. : skipped (unable to determine constant)
+Annealing procedure status ....................... : warming up
+Initial Rg penalty ............................... : 0.142E-01
+Initial Center penalty ........................... : 0.114E-14
+Initial Looseness penalty ........................ : 0.658E-02
+Annealing procedure status ....................... : started
+Step:    1, T: 0.312E-04, 1319/4561, Succ: 2000, Eval: 3680, CPU: 00:00:00
+ Rf: 0.1262, Los: 0.09, Rg: 0.07, Cen: 0.44, Ani: 0.00, Fit: 0.1301
+Step:    2, T: 0.280E-04, 1159/5197, Succ: 2000, Eval: 7926, CPU: 00:00:00
+ Rf: 0.1086, Los: 0.12, Rg: 0.00, Cen: 2.00, Ani: 0.00, Fit: 0.1141
+Step:    3, T: 0.252E-04, 1099/5776, Succ: 2000, Eval: 13038, CPU: 00:00:00
+ Rf: 0.0918, Los: 0.13, Rg: 0.07, Cen: 2.71, Ani: 0.00, Fit: 0.0991
+Step:    4, T: 0.227E-04, 1021/6176, Succ: 2000, Eval: 18693, CPU: 00:00:01
+ Rf: 0.0749, Los: 0.13, Rg: 0.14, Cen: 2.84, Ani: 0.00, Fit: 0.0841
+Step:    5, T: 0.204E-04, 943/6351, Succ: 2000, Eval: 23935, CPU: 00:00:01
+ Rf: 0.0614, Los: 0.12, Rg: 0.02, Cen: 2.75, Ani: 0.00, Fit: 0.0712
+Step:    6, T: 0.184E-04, 893/6545, Succ: 2000, Eval: 29194, CPU: 00:00:01
+ Rf: 0.0490, Los: 0.13, Rg: 0.03, Cen: 1.22, Ani: 0.00, Fit: 0.0615
+Step:    7, T: 0.166E-04, 909/6692, Succ: 2000, Eval: 34231, CPU: 00:00:01
+ Rf: 0.0469, Los: 0.12, Rg: 0.04, Cen: 2.17, Ani: 0.00, Fit: 0.0588
+Step:    8, T: 0.149E-04, 851/6856, Succ: 2000, Eval: 39256, CPU: 00:00:01
+ Rf: 0.0398, Los: 0.12, Rg: 0.02, Cen: 2.79, Ani: 0.00, Fit: 0.0533
+Step:    9, T: 0.134E-04, 861/6993, Succ: 2000, Eval: 44404, CPU: 00:00:02
+ Rf: 0.0344, Los: 0.11, Rg: 0.00, Cen: 3.80, Ani: 0.00, Fit: 0.0487
+Step:   10, T: 0.121E-04, 811/7184, Succ: 2000, Eval: 49441, CPU: 00:00:02
+ Rf: 0.0284, Los: 0.12, Rg: 0.01, Cen: 4.23, Ani: 0.00, Fit: 0.0457
+Step:   11, T: 0.109E-04, 839/7289, Succ: 2000, Eval: 54807, CPU: 00:00:02
+ Rf: 0.0303, Los: 0.12, Rg: 0.01, Cen: 3.30, Ani: 0.00, Fit: 0.0465
+Step:   12, T: 0.978E-05, 801/7386, Succ: 2000, Eval: 60187, CPU: 00:00:02
+ Rf: 0.0275, Los: 0.12, Rg: 0.00, Cen: 3.14, Ani: 0.00, Fit: 0.0443
+Step:   13, T: 0.880E-05, 797/7467, Succ: 2000, Eval: 65354, CPU: 00:00:02
+ Rf: 0.0227, Los: 0.11, Rg: 0.00, Cen: 3.40, Ani: 0.00, Fit: 0.0410
+Step:   14, T: 0.792E-05, 793/7552, Succ: 2000, Eval: 70836, CPU: 00:00:03
+ Rf: 0.0242, Los: 0.11, Rg: 0.00, Cen: 3.78, Ani: 0.00, Fit: 0.0418
+Step:   15, T: 0.713E-05, 817/7611, Succ: 2000, Eval: 76317, CPU: 00:00:03
+ Rf: 0.0207, Los: 0.10, Rg: 0.00, Cen: 3.92, Ani: 0.00, Fit: 0.0385
+Step:   16, T: 0.642E-05, 807/7675, Succ: 2000, Eval: 81658, CPU: 00:00:03
+ Rf: 0.0192, Los: 0.10, Rg: 0.00, Cen: 3.29, Ani: 0.00, Fit: 0.0368
+Step:   17, T: 0.577E-05, 805/7723, Succ: 2000, Eval: 86770, CPU: 00:00:03
+ Rf: 0.0158, Los: 0.08, Rg: 0.00, Cen: 2.21, Ani: 0.00, Fit: 0.0333
+Step:   18, T: 0.520E-05, 819/7766, Succ: 2000, Eval: 91712, CPU: 00:00:03
+ Rf: 0.0169, Los: 0.08, Rg: 0.00, Cen: 1.77, Ani: 0.00, Fit: 0.0335
+Step:   19, T: 0.468E-05, 797/7793, Succ: 2000, Eval: 96696, CPU: 00:00:03
+ Rf: 0.0137, Los: 0.09, Rg: 0.00, Cen: 0.29, Ani: 0.00, Fit: 0.0323
+Step:   20, T: 0.421E-05, 813/7832, Succ: 2000, Eval: 101618, CPU: 00:00:03
+ Rf: 0.0125, Los: 0.07, Rg: 0.00, Cen: 0.30, Ani: 0.00, Fit: 0.0297
+Step:   21, T: 0.379E-05, 817/7863, Succ: 2000, Eval: 106687, CPU: 00:00:04
+ Rf: 0.0101, Los: 0.07, Rg: 0.00, Cen: 0.58, Ani: 0.00, Fit: 0.0285
+Step:   22, T: 0.341E-05, 803/7899, Succ: 2000, Eval: 111857, CPU: 00:00:04
+ Rf: 0.0080, Los: 0.07, Rg: 0.00, Cen: 1.37, Ani: 0.00, Fit: 0.0281
+Step:   23, T: 0.307E-05, 811/7923, Succ: 2000, Eval: 117287, CPU: 00:00:04
+ Rf: 0.0092, Los: 0.07, Rg: 0.00, Cen: 0.35, Ani: 0.00, Fit: 0.0278
+Step:   24, T: 0.276E-05, 833/7957, Succ: 2000, Eval: 122726, CPU: 00:00:04
+ Rf: 0.0083, Los: 0.06, Rg: 0.00, Cen: 0.58, Ani: 0.00, Fit: 0.0261
+Step:   25, T: 0.249E-05, 811/7958, Succ: 2000, Eval: 128154, CPU: 00:00:04
+ Rf: 0.0065, Los: 0.06, Rg: 0.00, Cen: 0.57, Ani: 0.00, Fit: 0.0263
+Step:   26, T: 0.224E-05, 831/7976, Succ: 2000, Eval: 133730, CPU: 00:00:04
+ Rf: 0.0071, Los: 0.06, Rg: 0.00, Cen: 0.76, Ani: 0.00, Fit: 0.0249
+Step:   27, T: 0.201E-05, 821/7994, Succ: 2000, Eval: 139568, CPU: 00:00:04
+ Rf: 0.0059, Los: 0.06, Rg: 0.00, Cen: 1.08, Ani: 0.00, Fit: 0.0245
+Step:   28, T: 0.181E-05, 847/8008, Succ: 2000, Eval: 145563, CPU: 00:00:05
+ Rf: 0.0074, Los: 0.05, Rg: 0.00, Cen: 0.67, Ani: 0.00, Fit: 0.0236
+Step:   29, T: 0.163E-05, 867/8022, Succ: 2000, Eval: 151585, CPU: 00:00:05
+ Rf: 0.0037, Los: 0.04, Rg: 0.00, Cen: 0.41, Ani: 0.00, Fit: 0.0205
+Step:   30, T: 0.147E-05, 867/8026, Succ: 2000, Eval: 158074, CPU: 00:00:05
+ Rf: 0.0049, Los: 0.04, Rg: 0.00, Cen: 0.43, Ani: 0.00, Fit: 0.0209
+Step:   31, T: 0.132E-05, 853/8029, Succ: 2000, Eval: 164718, CPU: 00:00:05
+ Rf: 0.0050, Los: 0.04, Rg: 0.00, Cen: 0.40, Ani: 0.00, Fit: 0.0207
+Step:   32, T: 0.119E-05, 863/8032, Succ: 2000, Eval: 171393, CPU: 00:00:05
+ Rf: 0.0038, Los: 0.04, Rg: 0.00, Cen: 0.11, Ani: 0.00, Fit: 0.0207
+Step:   33, T: 0.107E-05, 885/8043, Succ: 2000, Eval: 178447, CPU: 00:00:05
+ Rf: 0.0034, Los: 0.04, Rg: 0.00, Cen: 0.40, Ani: 0.00, Fit: 0.0193
+Step:   34, T: 0.963E-06, 887/8051, Succ: 2000, Eval: 186285, CPU: 00:00:06
+ Rf: 0.0030, Los: 0.03, Rg: 0.00, Cen: 0.22, Ani: 0.00, Fit: 0.0185
+Step:   35, T: 0.867E-06, 883/8052, Succ: 2000, Eval: 194225, CPU: 00:00:06
+ Rf: 0.0025, Los: 0.03, Rg: 0.00, Cen: 0.17, Ani: 0.00, Fit: 0.0181
+Step:   36, T: 0.780E-06, 901/8052, Succ: 2000, Eval: 202812, CPU: 00:00:06
+ Rf: 0.0016, Los: 0.03, Rg: 0.00, Cen: 0.13, Ani: 0.00, Fit: 0.0172
+Step:   37, T: 0.702E-06, 907/8056, Succ: 2000, Eval: 211739, CPU: 00:00:06
+ Rf: 0.0018, Los: 0.03, Rg: 0.00, Cen: 0.40, Ani: 0.00, Fit: 0.0172
+Step:   38, T: 0.632E-06, 921/8056, Succ: 2000, Eval: 221504, CPU: 00:00:06
+ Rf: 0.0021, Los: 0.03, Rg: 0.00, Cen: 0.33, Ani: 0.00, Fit: 0.0162
+Step:   39, T: 0.569E-06, 933/8057, Succ: 2000, Eval: 232304, CPU: 00:00:07
+ Rf: 0.0023, Los: 0.03, Rg: 0.00, Cen: 0.14, Ani: 0.00, Fit: 0.0161
+Step:   40, T: 0.512E-06, 925/8060, Succ: 2000, Eval: 243790, CPU: 00:00:07
+ Rf: 0.0025, Los: 0.02, Rg: 0.00, Cen: 0.11, Ani: 0.00, Fit: 0.0155
+Step:   41, T: 0.461E-06, 941/8061, Succ: 2000, Eval: 255365, CPU: 00:00:07
+ Rf: 0.0017, Los: 0.02, Rg: 0.00, Cen: 0.29, Ani: 0.00, Fit: 0.0151
+Step:   42, T: 0.415E-06, 955/8061, Succ: 2000, Eval: 268267, CPU: 00:00:07
+ Rf: 0.0024, Los: 0.02, Rg: 0.00, Cen: 0.21, Ani: 0.00, Fit: 0.0150
+Step:   43, T: 0.373E-06, 957/8061, Succ: 2000, Eval: 282971, CPU: 00:00:08
+ Rf: 0.0019, Los: 0.02, Rg: 0.00, Cen: 0.11, Ani: 0.00, Fit: 0.0141
+Step:   44, T: 0.336E-06, 981/8061, Succ: 2000, Eval: 298948, CPU: 00:00:08
+ Rf: 0.0022, Los: 0.02, Rg: 0.00, Cen: 0.15, Ani: 0.00, Fit: 0.0134
+Step:   45, T: 0.302E-06, 979/8061, Succ: 2000, Eval: 316469, CPU: 00:00:08
+ Rf: 0.0019, Los: 0.02, Rg: 0.00, Cen: 0.09, Ani: 0.00, Fit: 0.0134
+Step:   46, T: 0.272E-06, 984/8061, Succ: 1979, Eval: 336469, CPU: 00:00:09
+ Rf: 0.0015, Los: 0.02, Rg: 0.00, Cen: 0.05, Ani: 0.00, Fit: 0.0131
+Step:   47, T: 0.245E-06, 1011/8061, Succ: 1767, Eval: 356469, CPU: 00:00:09
+ Rf: 0.0014, Los: 0.02, Rg: 0.00, Cen: 0.13, Ani: 0.00, Fit: 0.0128
+Step:   48, T: 0.220E-06, 1022/8061, Succ: 1585, Eval: 376469, CPU: 00:00:10
+ Rf: 0.0018, Los: 0.01, Rg: 0.00, Cen: 0.05, Ani: 0.00, Fit: 0.0122
+Step:   49, T: 0.198E-06, 1010/8061, Succ: 1144, Eval: 396469, CPU: 00:00:10
+ Rf: 0.0015, Los: 0.02, Rg: 0.00, Cen: 0.02, Ani: 0.00, Fit: 0.0123
+Step:   50, T: 0.178E-06, 1016/8061, Succ: 1046, Eval: 416469, CPU: 00:00:11
+ Rf: 0.0012, Los: 0.01, Rg: 0.00, Cen: 0.03, Ani: 0.00, Fit: 0.0122
+Step:   51, T: 0.161E-06, 1028/8061, Succ: 968, Eval: 436469, CPU: 00:00:11
+ Rf: 0.0014, Los: 0.01, Rg: 0.00, Cen: 0.07, Ani: 0.00, Fit: 0.0118
+Step:   52, T: 0.145E-06, 1035/8061, Succ: 749, Eval: 456469, CPU: 00:00:12
+ Rf: 0.0015, Los: 0.01, Rg: 0.00, Cen: 0.03, Ani: 0.00, Fit: 0.0117
+Step:   53, T: 0.130E-06, 1028/8061, Succ: 599, Eval: 476469, CPU: 00:00:12
+ Rf: 0.0014, Los: 0.01, Rg: 0.00, Cen: 0.01, Ani: 0.00, Fit: 0.0117
+Step:   54, T: 0.117E-06, 1032/8061, Succ: 486, Eval: 496469, CPU: 00:00:13
+ Rf: 0.0015, Los: 0.01, Rg: 0.00, Cen: 0.03, Ani: 0.00, Fit: 0.0114
+Step:   55, T: 0.105E-06, 1043/8061, Succ: 375, Eval: 516469, CPU: 00:00:13
+ Rf: 0.0012, Los: 0.01, Rg: 0.00, Cen: 0.02, Ani: 0.00, Fit: 0.0113
+Step:   56, T: 0.948E-07, 1049/8061, Succ: 282, Eval: 536469, CPU: 00:00:14
+ Rf: 0.0014, Los: 0.01, Rg: 0.00, Cen: 0.04, Ani: 0.00, Fit: 0.0112
+Step:   57, T: 0.854E-07, 1047/8061, Succ: 250, Eval: 556469, CPU: 00:00:14
+ Rf: 0.0013, Los: 0.01, Rg: 0.00, Cen: 0.01, Ani: 0.00, Fit: 0.0111
+Step:   58, T: 0.768E-07, 1051/8061, Succ: 168, Eval: 576469, CPU: 00:00:15
+ Rf: 0.0013, Los: 0.01, Rg: 0.00, Cen: 0.04, Ani: 0.00, Fit: 0.0111
+Step:   59, T: 0.691E-07, 1050/8061, Succ: 119, Eval: 596469, CPU: 00:00:15
+ Rf: 0.0014, Los: 0.01, Rg: 0.00, Cen: 0.03, Ani: 0.00, Fit: 0.0111
+Step:   60, T: 0.622E-07, 1053/8061, Succ: 105, Eval: 616469, CPU: 00:00:16
+ Rf: 0.0015, Los: 0.01, Rg: 0.00, Cen: 0.01, Ani: 0.00, Fit: 0.0110
+Step:   61, T: 0.560E-07, 1052/8061, Succ: 63, Eval: 636469, CPU: 00:00:16
+ Rf: 0.0013, Los: 0.01, Rg: 0.00, Cen: 0.02, Ani: 0.00, Fit: 0.0110
+Step:   62, T: 0.504E-07, 1051/8061, Succ: 29, Eval: 656469, CPU: 00:00:17
+ Rf: 0.0013, Los: 0.01, Rg: 0.00, Cen: 0.02, Ani: 0.00, Fit: 0.0110
+Step:   63, T: 0.454E-07, 1053/8061, Succ: 58, Eval: 676469, CPU: 00:00:18
+ Rf: 0.0014, Los: 0.01, Rg: 0.00, Cen: 0.01, Ani: 0.00, Fit: 0.0110
+Step:   64, T: 0.408E-07, 1053/8061, Succ: 34, Eval: 696469, CPU: 00:00:18
+ Rf: 0.0012, Los: 0.01, Rg: 0.00, Cen: 0.02, Ani: 0.00, Fit: 0.0109
+Step:   65, T: 0.367E-07, 1052/8061, Succ: 7, Eval: 716469, CPU: 00:00:19
+ Rf: 0.0012, Los: 0.01, Rg: 0.00, Cen: 0.01, Ani: 0.00, Fit: 0.0109
+Annealing procedure status ....................... : cooled down
+Probability that the model fits the data ......... : 0.807
+Preparing output files ........................... : pdb, fit, fir
+Log closed ....................................... : 30-Mar-2020, 11:47:17

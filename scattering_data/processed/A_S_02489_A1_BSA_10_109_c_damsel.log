@@ -1,0 +1,32 @@
+
+    ---  CREATED BY DAMSEL     5.0 (r10552) ---
+    ------------------------------------------
+      CROSS-CORRELATION nsd TABLE BY SUPCOMB  
+    ------------------------------------------
+
+Input files:
+    1  A_S_02489_A1_BSA_10_109_c_01-1.pdb
+    2  A_S_02489_A1_BSA_10_109_c_02-1.pdb
+    3  A_S_02489_A1_BSA_10_109_c_03-1.pdb
+
+SASRES resolution computation:  
+
+   Ensemble Resolution =    40 +-  3 Angstrom
+   If you use SASRES resolution estimate in your own publication, 
+please cite: A.T. Tuukkanen, G.J. Kleywegt and D.I. Svergun (2016) Resolution of 
+ab initio shapes determined from small-angle scattering IUCrJ 3, 440-447.
+
+  File Aver      1      2      3
+     1   0.77   0.00   0.77   0.76
+     2   0.77   0.77   0.00   0.77
+     3   0.77   0.76   0.77   0.00
+  Aver   0.77   0.77   0.77   0.77
+
+Mean value of NSD         :      0.767
+Standard deviation of NSD :      0.001
+
+It is recommend to discard files with nsd > Mean + 2*Standard deviation
+ Recommendation       NSD  File
+        Include     0.766  A_S_02489_A1_BSA_10_109_c_01-1.pdb
+        Include     0.767  A_S_02489_A1_BSA_10_109_c_03-1.pdb
+        Include     0.769  A_S_02489_A1_BSA_10_109_c_02-1.pdb
